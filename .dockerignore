@@ -1,0 +1,15 @@
+# Evita copiar archivos innecesarios al contexto de Docker
+target/
+.git/
+.gitignore
+*.md
+logs/
+.idea/
+*.iml
+.mvn/
+mvnw
+mvnw.cmd
+
+# Nunca incluir credenciales en la imagen
+src/main/resources/firebase-service-account.json
+src/main/resources/application-dev.properties
