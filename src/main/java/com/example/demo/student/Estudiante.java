@@ -1,8 +1,6 @@
 package com.example.demo.student;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.*;
 import java.time.LocalDate;
 
 @Entity
