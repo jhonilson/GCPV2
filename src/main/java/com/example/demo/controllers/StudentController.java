@@ -27,4 +27,9 @@ public class StudentController {
         return studentService.listarEstudiante();
     }
 
+    @GetMapping("/listarTodos")
+    public List<Estudiante> listarTodos(){
+        return studentService.listarTodos();
+    }
+
 }
